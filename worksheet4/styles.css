@@ -95,3 +95,28 @@ h1{
     font-size: 60px;
     text-align: center;
 }
+
+ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.container-navigation{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.push {
+    margin-left: auto;
+}
+
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin: 0px 3px;
+    border: 1px solid limegreen;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
